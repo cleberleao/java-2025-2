@@ -1,0 +1,3 @@
+Ana;ana@email.com;1990-5-20
+Bruno;bruno@email.com;1985-8-15
+Leão;leao@email.com;1980-3-14
