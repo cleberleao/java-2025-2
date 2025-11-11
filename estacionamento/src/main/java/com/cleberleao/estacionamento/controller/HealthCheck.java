@@ -14,7 +14,7 @@ public class HealthCheck {
         return Map.of(
                 "status", "UP",
                 "timestamp", LocalDateTime.now().toString(),
-                "service", "Delivery API"
+                "service", "Estacionamento API"
         );
     }
 }
