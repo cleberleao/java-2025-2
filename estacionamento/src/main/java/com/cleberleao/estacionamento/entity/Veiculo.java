@@ -1,7 +1,6 @@
 package com.cleberleao.estacionamento.entity;
 
 import com.cleberleao.estacionamento.dto.RequestVeiculoDTO;
-import com.cleberleao.estacionamento.dto.ResponseVeiculoDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;

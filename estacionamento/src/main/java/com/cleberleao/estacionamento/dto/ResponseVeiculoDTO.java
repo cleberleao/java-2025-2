@@ -1,9 +1,13 @@
 package com.cleberleao.estacionamento.dto;
 
+import com.cleberleao.estacionamento.entity.Estacionar;
 import com.cleberleao.estacionamento.entity.Veiculo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.time.LocalDate;
+import java.util.Date;
 
 @Data
 @NoArgsConstructor
@@ -18,10 +22,13 @@ public class ResponseVeiculoDTO {
 
     private String cor;
 
+    private LocalDate dataCriacao;
+
+    private LocalDate dataUpdate;
+
     public ResponseVeiculoDTO(Veiculo veiculo) {
-        this.id = veiculo.getId();
-        this.modelo = veiculo.getModelo();
         this.cor = veiculo.getCor();
         this.placa = veiculo.getPlaca();
+        this.modelo = veiculo.getModelo();
     }
 }
